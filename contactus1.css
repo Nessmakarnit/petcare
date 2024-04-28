@@ -1,0 +1,143 @@
+.container {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 70px;
+    width: 1280px;
+  }
+  
+  #home,#services , #contactus {
+    display: inline;
+    color: black;
+    text-decoration: none;
+    padding: 18px;
+    font-size: 20px;
+  }
+  
+  h1 {
+    color: orange;
+    font-size: 50px;
+    margin-top: 5px;
+  }
+  #home:hover, #services:hover, #contactus:hover {
+    color: #f3c482;
+  }
+  .formulaire{
+    background-color: rgb(253, 237, 237);
+    display: flex;
+    flex-direction: row;
+    border: orange 2px solid ;
+    height: 500px;
+    width: 90%;
+    margin-left: 80px;
+  }
+  .im2{
+    height: 480px;
+    width: 400px;
+    border: rgb(253, 237, 237) 1px solid ;
+   background-color: rgb(253, 237, 237);
+   margin-left: 60px;
+  }
+  form{
+    background-color: rgb(253, 237, 237);
+    border-right: orange 2px solid ;
+    width: 50%;
+    /*margin-left: 10px;*/
+    height: 415px;
+    text-align: center;
+    padding-top: 80px;
+    /*background-color: #ffe9e3;*/
+    
+  }
+  input{
+    border: white solid 1px;
+    border-bottom: #155263 solid 1px;
+    
+  }
+  .label{
+    color:#155263 ;
+    font-size: 21px;
+  }
+  #b1, #b2{
+    margin-top: 20px;
+    width: 90px;
+  }
+  #b1{
+    background-color: rgb(236, 79, 79);
+    width:150px;
+    
+  }
+  #b2{
+    background-color: rgb(11, 171, 11);
+    width:150px;
+  }
+  footer{
+    background-color: #ffefef;
+    height: 270px;
+    display: flex;
+    border-top: orange 2px solid ;
+    margin-top: 30px;
+  }
+  #address{
+    /*border: white 3px solid;*/
+    text-align: center;
+    margin-left: 100px;
+    height:150px ;
+    width: 200px;
+    margin-top: 60px;
+    font-size: 20px;
+  }
+  .horaire{
+    /*border: white 3px solid;*/
+    text-align: center;
+    margin-left: 350px;
+    height:150px ;
+    width: 250px;
+    margin-top: 60px;
+    font-size: 20px;
+  }
+  .liens{
+    /*border: white 3px solid;*/
+    /*text-align: center;*/
+    margin-left: 320px;
+    height:150px ;
+    width: 200px;
+    margin-top: 60px;
+  }
+  #instagram{
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 40px;
+  }
+  #facebook{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 40px;
+
+  }
+  #tiktok{
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 40px;
+  }
+  #b2:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#b1:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#s{
+    width: 150px;
+}
+input{
+    height: 25px;
+}
+  

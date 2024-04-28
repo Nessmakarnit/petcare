@@ -1,0 +1,137 @@
+.container {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 70px;
+    width: 1280px;
+  }
+  
+  #home,#services , #contactus {
+    display: inline;
+    color: black;
+    text-decoration: none;
+    padding: 18px;
+    font-size: 20px;
+  }
+  
+  h1 {
+    color: orange;
+    font-size: 50px;
+    margin-top: 5px;
+  }
+  .all{
+    height: 560px;
+    display: flex;
+    flex-direction: row;
+    border: orange solid;
+    background-color: #ffe9e3;
+  }
+  .image{
+    background-color: #ffe9e3;
+    position: relative;
+  margin-left: 150px; 
+  padding-left: 100px;
+  left: 190px;
+  
+  }
+  #premiereligne{
+    background-color: #ffe9e3;
+    color: black;
+    font-size: 60px;
+    font-family: Georgia, serif;
+  }
+  #deuxligne{
+    font-size: 30px;
+  }
+  h2{
+    margin-top: 55px;
+    padding-left: 30px;
+    color: orange;
+    font-size: 30px;
+  }
+  #apropos{
+    font-size: 17px;
+    border:orange solid 2px;
+    padding: 10px;
+    font-family: cursive;
+    text-align: center;
+  }
+  .seconddiv{
+    width: 50%;
+    background-color:#ffe9e3 ;
+
+  }
+  footer{
+    background-color: #ffefef;
+    height: 270px;
+    display: flex;
+    border-top: black 2px solid ;
+    margin-top: 100px;
+  }
+  #address{
+    /*border: white 3px solid;*/
+    text-align: center;
+    margin-left: 100px;
+    height:150px ;
+    width: 200px;
+    margin-top: 60px;
+    font-size: 20px;
+  }
+  .horaire{
+    /*border: white 3px solid;*/
+    text-align: center;
+    margin-left: 350px;
+    height:150px ;
+    width: 250px;
+    margin-top: 60px;
+    font-size: 20px;
+  }
+  .liens{
+    /*border: white 3px solid;*/
+    /*text-align: center;*/
+    margin-left: 320px;
+    height:150px ;
+    width: 200px;
+    margin-top: 60px;
+  }
+  #instagram{
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 40px;
+  }
+  #facebook{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 40px;
+
+  }
+  #tiktok{
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 40px;
+  }
+  .secondimage{
+    position: relative;
+    /*border: orange 2px solid;*/
+    width: 450px;
+    margin-left: 800px;
+    height: 250px;
+  }
+  #img3{
+    width: 450px;
+    height: 250px;
+  }
+
+  #home:hover, #services:hover, #contactus:hover {
+    color: #f3c482;
+  }
+  
+  

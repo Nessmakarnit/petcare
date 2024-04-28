@@ -1,0 +1,203 @@
+.container {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 70px;
+    width: 1280px;
+  }
+  
+  #home,#services , #contactus {
+    display: inline;
+    color: black;
+    text-decoration: none;
+    padding: 18px;
+    font-size: 20px;
+  }
+  
+  h1 {
+    color: orange;
+    font-size: 50px;
+    margin-top: 5px;
+  }
+  .premierdiv{
+    border:orange 3px solid;
+    height: 400px;
+    background-color: #ffe9e3;
+  }
+  .para{
+   /* border: black 2px solid ;*/
+    text-align: center;
+    height:20%;
+    font-size: 25px;
+    color:  #155263;;
+  }
+  .thirdimage{
+    text-align: center;
+    height: 80%;
+  }
+  #home:hover, #services:hover, #contactus:hover {
+    color: #f3c482;
+  }
+  .touslesservices{
+    border: orange 2px solid ;
+    margin-top: 100px;
+    height: 560px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffe9e3;
+  }
+  .premierservice{
+    border: #155263 2px solid ;
+    height: 530px;
+    margin: 20px;
+    width: 30%;
+  }
+  .deuxservice{
+    border: #155263 2px solid ;
+    margin: 20px;
+    width: 30%;
+    height: 530px;
+  }
+  .troisiemeservice{
+    border: #155263 2px solid ;
+    margin: 20px;
+    width: 30%;
+    height: 530px;
+  }
+  .i1,.i2,.i3{
+    height: 50%;
+    /*border: red solid 2px;*/
+  }
+  #i1i5{
+    width: 100%;
+    height: 100%;
+  }
+  #i2i6{
+    width: 100%;
+    height: 100%;
+  }
+  #i3i7{
+    width: 100%;
+    height: 100%;
+  }
+  .titre{
+    text-align: center;
+    font-size: 26px;
+    color: orange;
+  }
+  .text{
+    text-align: center;
+    margin-top: 10px;
+    color: #155263;
+    background-color: #f3c482;
+    font-size: 20px;
+  }
+  h2{
+    text-align: center;
+    text-decoration: underline;
+    color: #155263;
+    font-size: 28px;
+    margin-top: 60px;
+  }
+  .prices{
+    height: 250px;
+    border: orange 2px solid ;
+    margin-top: 30px;
+    text-align: center;
+    width: 30%;
+    margin-left: 480px;
+    background-color:#ffe9e3;
+  }
+  table{
+    height: 180px;
+    margin-top: 30px;
+    width: 50%;
+    margin-left: 20%;
+    border-collapse: collapse;
+
+  }
+  table td, table th {
+    border: 2px solid #f3c482;
+  }
+  th{
+    font-size: 19px;
+  }
+  td{
+    font-size: 18px;
+  }
+  footer{
+    background-color: #ffefef;
+    height: 250px;
+    display: flex;
+    border-top: black 2px solid ;
+    margin-top: 100px;
+  }
+  #address{
+    /*border: white 3px solid;*/
+    text-align: center;
+    margin-left: 100px;
+    height:150px ;
+    width: 200px;
+    margin-top: 60px;
+    font-size: 20px;
+  }
+  .horaire{
+    /*border: white 3px solid;*/
+    text-align: center;
+    margin-left: 350px;
+    height:150px ;
+    width: 250px;
+    margin-top: 60px;
+    font-size: 20px;
+  }
+  .liens{
+    /*border: white 3px solid;*/
+    /*text-align: center;*/
+    margin-left: 320px;
+    height:150px ;
+    width: 200px;
+    margin-top: 60px;
+  }
+  #instagram{
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 40px;
+  }
+  #facebook{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 40px;
+
+  }
+  #tiktok{
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 40px;
+  }
+  #scrollToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99; /* Ensure it's above other elements */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Make it a round button */
+    background-color: #3498db; /* Adjust background color as desired */
+    color: white; /* Adjust text color as desired */
+    text-align: center; /* Center the emoji */
+    font-size: 20px; /* Adjust font size as desired */
+    text-decoration: none; /* Remove underline from link */
+    cursor: pointer; /* Change cursor to pointer on hover */
+  }
+  
+  #scrollToTopButton:hover {
+    background-color: #2980b9; /* Adjust hover background color */
+  }
